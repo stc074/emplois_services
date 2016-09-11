@@ -1,0 +1,339 @@
+/* 
+    Document   : style
+    Created on : 6 déc. 2011, 19:02:02
+    Author     : pj
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+body {
+    font-family: Arial, serif;
+}
+a img {
+    border: none;
+}
+a {
+    color: #637f97;
+}
+a:hover {
+    text-decoration: none;
+    color: #d0514b;
+}
+header div.connexion {
+    text-align: center;
+    font-size: 0.6em;
+    border: solid 1px #000000;
+    width: 20%;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #333333;
+    display: inline-block;
+    vertical-align: middle;
+}
+header div.connexion div.erreur {
+    border: solid 1px #cc0000;
+    background-color: #e3cec7;
+    color: #000000;
+    font-weight: 500;
+    font-family: Arial,serif;
+    padding: 2px 2px 2px 2px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #660000;
+}
+header div.logo {
+    background-image: url("../GFXs/logo.png");
+    width: 356px;
+    height: 129px;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10%;
+}
+nav ul.menu li {
+    display: inline-block;
+    vertical-align: middle;
+    background-image: url("../GFXs/gradient1.png");
+    background-repeat: repeat-x;
+    padding: 5px 5px 5px;
+    font-size: 1.2em;
+    font-weight: 600;
+    border: solid 1px #1f1f1f;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px #333333;
+}
+nav ul.menu li:hover {
+    background-image: url("../GFXs/gradient2.png");
+    box-shadow: 2px 2px 2px #000000;
+}
+nav ul.menu li a {
+    text-decoration: none;
+    color: #000000;
+}
+nav ul.menu li a:hover {
+    color: #333333;
+}
+section {
+    min-height: 600px;
+    background-color: #e9e8e2;
+    font-size: 0.8em;
+    font-family: Arial, serif;
+}
+section h1 {
+    color: #c99f57;
+}
+section h1 strong {
+    font-weight: 600;
+}
+section h2 {
+    color: #5777c9;
+    font-size: 1.2em;
+}
+section h2 strong {
+    font-weight: 600;
+}
+section strong {
+    font-weight: 500;
+}
+section ul.reseauxSoc {
+    margin-left: 15%;
+    padding: 0px;
+}
+section ul.reseauxSoc2 {
+    margin-left: 0px;
+    padding-left: 0px;
+}
+section ul.reseauxSoc li,
+section ul.reseauxSoc2 li {
+    list-style: none;
+    margin-left: 5px;
+    padding: 0px;
+    display: inline-block;
+    vertical-align: middle;
+}
+section div.info,
+section div.info strong {
+    background-color: #a1978d;
+    font-weight: 600;
+    color: #333333;
+}
+section div.colonneGauche {
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+}
+section div.colonneGauche ul.menuListe li {
+    list-style: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    background-color: #8f8f73;
+    border: solid 1px #000000;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px #666666;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+section div.colonneGauche ul.menuListe li.item {
+    background-color: #a1978d;
+    cursor: pointer;
+}
+section div.colonneGauche ul.menuListe li.item:hover {
+    background-color: #aa99aa;
+}
+section div.colonneGauche ul.menuListe li.retour {
+    background-color: #9c9577;
+    cursor: pointer;
+}
+section div.colonneGauche ul.menuListe li.retour:hover {
+    background-color: #aa99aa;
+}
+section div.colonneGauche ul.menuListe li a {
+    text-decoration: none;
+    color: #000000;
+}
+section div.colonneGauche ul.menuListe li.actuel {
+    background-color: #c99f57;
+}
+section div.colonneGauche ul.menuListe li a:hover {
+    color: #333333;
+}
+section div.colonneDroite {
+    width: 75%;
+    display: inline-block;
+    vertical-align: top;
+}
+section div.cadre {
+    border: solid 1px #adadad;
+    width: 70%;
+    padding: 10px 10px 10px 10px;
+    background-color: #ffffeb;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px #333333;
+}
+section div.cadre2 {
+    border: solid 1px #adadad;
+    width: 70%;
+    padding: 10px 10px 10px 10px;
+    background-color: #ffffeb;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px #333333;
+    margin: auto;
+    font-weight: 600;
+}
+section div.cadre2 strong {
+    font-weight: 600;
+}
+section div.cadre2 div.colonne {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 2px 2px 2px 2px;
+}
+section div#map_canvas {
+    width: 45%;
+    height: 250px;
+    margin-left: 10px;
+}
+section div.cadrePhoto {
+    margin: auto;
+    text-align: center;
+}
+section div.cadrePhoto div.mini {
+    display: inline-block;
+    padding: 2px 2px 2px 2px;
+    margin: 5px 5px 5px 5px;
+    border: solid 1px #333333;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px #666666;
+}
+section div.erreur {
+    border: solid 1px #cc0000;
+    background-color: #e3cec7;
+    color: #000000;
+    font-weight: 700;
+    font-family: Arial,serif;
+    padding: 5px 5px 5px 5px;
+    width: 70%;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px #660000;
+}
+section div.encartPub {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    background-color: #e3dfc7;
+    border: solid 1px #a1978d;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px #333333;
+}
+section div.encartPub2 {
+    border: solid 1px #adadad;
+    width: 70%;
+    padding: 10px 10px 10px 10px;
+    background-color: #ffffeb;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px #333333;
+    margin: auto;
+    text-align: center;
+}
+section div.cadreAnnonce {
+    width: 80%;
+    margin: auto;
+    background-color: #e3dfc7;
+    border: solid 1px #a1978d;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px #333333;
+    cursor: pointer;
+}
+section div.cadreAnnonce:hover {
+    background-color: #aa99aa;
+}
+section div.cadreAnnonce div.gauche {
+    border: solid 1px #000000;
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px #666666;
+    margin: auto;
+    text-align: center;
+    padding: 2px 2px 2px 2px;
+    margin: 5px 5px 5px 5px;
+}
+section div.cadreAnnonce div.droite {
+    margin-left: 15px;
+    width: 75%;
+    display: inline-block;
+    vertical-align: top;
+}
+section div.cadreAnnonce div.droite h1 {
+    margin-top: 0px;
+    padding-top: 0px;
+    font-weight: 500;
+    font-size: 1em;
+}
+section div.captcha {
+    background-image: url("./../captcha.png");
+    width: 160px;
+    height: 28px;
+    display: inline-block;
+    vertical-align: middle;
+}
+section div.captchaDroite {
+    display: inline-block;
+    vertical-align: middle;
+}
+section .clign {
+    font-weight: 600;
+    color: #F7A922;
+    text-decoration: blink;
+}
+section div.pages {
+    text-align: center;
+}
+section div.lienBas {
+    margin: auto;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+footer {
+    text-align: center;
+    font-size: 0.7em;
+}
+/*  */
+input[type="submit"],
+label {
+    cursor: pointer;
+}
+input[type="text"],
+input[type="password"] {
+    border: solid 1px #adadad;
+    font-weight: 600;
+    font-size: 1.1em;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+input[type="text"]:hover,
+input[type="password"]:hover {
+    border: solid 1px #8b8b8b;
+}
+fieldset {
+    border: solid 1px #adadad;
+    width: 80%;
+    padding: 10px 10px 10px 10px;
+    background-color: #ffffeb;    
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px #333333;
+}
+
+
